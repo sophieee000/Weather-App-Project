@@ -1,66 +1,50 @@
+@import "tailwindcss";
+
+@theme {
+  --color-gray-100: #f3f4f6;
+  --color-gray-800: #1f2937;
+  --color-gray-500: #6b7280;
+  --color-gray-600: #4b5563;
+  --color-blue-600: #2563eb;
+}
+
 body {
-  background-color: #f3f4f6;
-  color: #1f2937;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  @apply bg-gray-100 text-gray-800 font-sans;
 }
 
 .weather-card {
-  background-color: white;
-  border-radius: 0.5rem;
-  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
-  padding: 1rem;
-  text-align: center;
+  @apply bg-white rounded-lg shadow p-4 text-center;
 }
 
 .weather-title {
-  font-size: 1.125rem;
-  font-weight: 600;
+  @apply text-lg font-semibold;
 }
 
 .weather-date {
-  font-size: 0.875rem;
-  color: #6b7280;
+  @apply text-sm text-gray-500;
 }
 
 .weather-icon {
-  font-size: 2.25rem;
-  margin: 0.5rem 0;
+  @apply text-4xl my-2;
 }
 
 .weather-summary {
-  margin-bottom: 0.5rem;
+  @apply mb-2;
 }
 
 .weather-temp {
-  font-weight: 500;
+  @apply font-medium;
 }
 
 .weather-wind {
-  font-size: 0.875rem;
-  color: #4b5563;
+  @apply text-sm text-gray-600;
 }
 
 .container {
-  max-width: 56rem;
-  margin: 0 auto;
-  padding: 1rem;
+  @apply max-w-4xl mx-auto p-4;
 }
 
 .grid-weather {
-  display: grid;
-  grid-template-columns: repeat(1, minmax(0, 1fr));
-  gap: 1rem;
-}
-
-@media (min-width: 640px) {
-  .grid-weather {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-}
-
-@media (min-width: 768px) {
-  .grid-weather {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
+  @apply grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4;
 }
 
