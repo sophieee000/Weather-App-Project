@@ -1,36 +1,6 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
-## Getting Started
-
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+👥 Team Collaboration This project was developed collaboratively by a team of three, with responsibilities clearly divided to ensure efficient development, maintainable code, and a high-quality final product. Each team member owned a specific area of the application while working together through GitHub issues, branches, and pull requests.
+Team Members & Responsibilities
+👩‍💻 Annette — Frontend UI & Components Designed and built the user interface using React and Tailwind CSS Created reusable components such as WeatherCard and LocationSelector Ensured consistent layout and responsive design across all screen sizes
+👨‍💻 Dan — API & Data Integration Integrated the Open-Meteo Weather API Managed application state and data fetching logic Created utility mappings for weather codes and location coordinates Ensured accurate and dynamic updates when the selected location changed
+👩‍💻Sofia — Enhancements, Documentation & Deployment Implemented extended functionality for viewing detailed daily forecasts Managed application deployment using Vercel Wrote and maintained project documentation, including this README Performed final testing and code review before submission
+Collaboration Process Tasks were managed using GitHub Issues Each feature was developed in a separate branch Pull requests were reviewed by at least one team member before merging Regular check-ins ensured progress and resolved blockers early This structured approach allowed the team to work efficiently while following industry-standard development practices.
