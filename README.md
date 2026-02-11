@@ -1,6 +1,10 @@
 👥 Team Collaboration This project was developed collaboratively by a team of three, with responsibilities clearly divided to ensure efficient development, maintainable code, and a high-quality final product. Each team member owned a specific area of the application while working together through GitHub issues, branches, and pull requests.
+
 Team Members & Responsibilities
 👩‍💻 Annette — Frontend UI & Components Designed and built the user interface using React and Tailwind CSS Created reusable components such as WeatherCard and LocationSelector Ensured consistent layout and responsive design across all screen sizes
+
 👨‍💻 Dan — API & Data Integration Integrated the Open-Meteo Weather API Managed application state and data fetching logic Created utility mappings for weather codes and location coordinates Ensured accurate and dynamic updates when the selected location changed
+
 👩‍💻Sofia — Enhancements, Documentation & Deployment Implemented extended functionality for viewing detailed daily forecasts Managed application deployment using Vercel Wrote and maintained project documentation, including this README Performed final testing and code review before submission
+
 Collaboration Process Tasks were managed using GitHub Issues Each feature was developed in a separate branch Pull requests were reviewed by at least one team member before merging Regular check-ins ensured progress and resolved blockers early This structured approach allowed the team to work efficiently while following industry-standard development practices.
