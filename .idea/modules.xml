@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/.idea/weatherapp.iml" filepath="$PROJECT_DIR$/.idea/weatherapp.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/.idea/Weather-App-Project.iml" filepath="$PROJECT_DIR$/.idea/Weather-App-Project.iml" />
+>>>>>>> 5e8b126a91704137a8173b56e7ced02190d86a14
     </modules>
   </component>
 </project>
