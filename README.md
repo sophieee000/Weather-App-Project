@@ -1,4 +1,5 @@
-👥 Team Collaboration This project was developed collaboratively by a team of three, with responsibilities clearly divided to ensure efficient development, maintainable code, and a high-quality final product. Each team member owned a specific area of the application while working together through GitHub issues, branches, and pull requests.
+👥 Team Collaboration
+ This project was developed collaboratively by a team of three, with responsibilities clearly divided to ensure efficient development, maintainable code, and a high-quality final product. Each team member owned a specific area of the application while working together through GitHub issues, branches, and pull requests.
 
 Team Members & Responsibilities
 
