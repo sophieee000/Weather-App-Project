@@ -36,7 +36,7 @@ export default function DayForecast({ day }) {
   };
 
   return (
-    <div className="group bg-gradient-to-br from-white to-blue-50 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 p-6 border border-blue-100">
+    <div className="group bg-linear-to-br from-white to-blue-50 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 p-6 border border-blue-100">
       <div className="text-center">
         <h3 className="text-lg font-bold text-gray-800">{weekday}</h3>
         <p className="text-sm text-gray-500 mb-3">{shortDate}</p>
@@ -45,7 +45,7 @@ export default function DayForecast({ day }) {
           {weather.icon}
         </div>
         
-        <p className="font-medium text-gray-700 mb-3 bg-blue-100 text-blue-800 py-1 px-3 rounded-full text-sm inline-block">
+        <p className="font-medium mb-3 bg-blue-100 text-blue-800 py-1 px-3 rounded-full text-sm inline-block">
           {weather.text}
         </p>
 
